@@ -1,24 +1,28 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Carte 1 colonne — Bosquel</title></head><body style="margin:0;padding:20px;background:#f1f5f9;"><style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+/* Force le basculement sur une seule colonne pour l'affichage mobile */
 @media screen and (max-width: 850px) {
-  .actor-card-mobile {
-    width: 100% !important;
-    min-width: 0 !important;
-    display: block !important;
+  .grid-container {
+    grid-template-columns: 1fr !important;
   }
 }
 </style>
 
-<div style="font-family:Arial, Helvetica, sans-serif; color:#0f172a; background:#f8fafc; border:1px solid #e2e8f0; border-radius:18px; padding:24px; width:100%; max-width:1200px; margin:0 auto; overflow:hidden;">
+<div style="font-family:Arial, Helvetica, sans-serif; color:#0f172a; background:#f8fafc; border:1px solid #e2e8f0; border-radius:18px; padding:24px; width:100%; max-width:1200px; margin:0 auto; overflow:hidden; box-sizing: border-box;">
 
+  <!-- Bandeau titre -->
   <div style="background:#111827; color:#ffffff; border-radius:16px; padding:24px; margin-bottom:20px;">
     <h1 style="margin:0 0 8px 0; font-size:26px; line-height:1.15;">Cartographie statique des acteurs — Bosquel / Supercalculateur IA</h1>
-    <p style="margin:0; color:#cbd5e1; font-size:14px; line-height:1.45;">Lecture en une seule colonne : projet central, lauréat industriel, institutions territoriales, État, énergie, écosystème IA, points de vigilance et sources citées.</p>
+    <p style="margin:0; color:#cbd5e1; font-size:14px; line-height:1.45;">Lecture en deux colonnes : projet central, lauréat industriel, institutions territoriales, État, énergie, écosystème IA, points de vigilance et sources citées.</p>
   </div>
 
+  <!-- Légende -->
   <div style="display:block; margin:0 0 22px 0; padding:14px 16px; background:#ffffff; border:1px solid #e2e8f0; border-radius:14px;">
     <span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#111827;"></i>Projet central</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#2563eb;"></i>Porteur / lauréat industriel</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#7c3aed;"></i>Institutions territoriales</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#0f766e;"></i>État / acteurs publics nationaux</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#f97316;"></i>Énergie / raccordement</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#0891b2;"></i>Recherche / formation / écosystème IA</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#dc2626;"></i>Positions critiques / points de vigilance</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#64748b;"></i>Médias / sources cités</span>
   </div>
 
+  <!-- Élément Central -->
   <div style="text-align:center; padding:18px 0 24px 0; margin-bottom:18px;">
     <div style="display:inline-block; background:#111827; color:#ffffff; border-radius:999px; padding:22px 34px;">
       <strong style="display:block; font-size:26px; line-height:1.1;">ZAC du Bosquel — Supercalculateur IA</strong>
@@ -26,208 +30,277 @@
     </div>
   </div>
 
-  <div style="display:block; width:100%;">
-    
-    <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #111827; border-radius:18px; padding:18px; margin:0 0 18px 0;">
-      <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Projet central</h2>
-      <div style="font-size:0; text-align:left;">
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Campus numérique et industriel du Bosquel</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Projet de supercalculateur / campus IA sur la ZAC du Bosquel, site Fast Track RTE, avec une capacité pré-réservée de 1 GW.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">ZAC du Bosquel</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Site de 46 hectares, dont 33 hectares dédiés au futur opérateur et 13 hectares vendus à RTE pour le raccordement.</div>
-        </div></div>
-    </div>
-    <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #2563eb; border-radius:18px; padding:18px; margin:0 0 18px 0;">
-      <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Porteur / lauréat industriel</h2>
-      <div style="font-size:0; text-align:left;">
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Silver Bands France Computer Center Bosquel</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Lauréat de l’AMI choisi par les élus de la CC2SO pour construire puis exploiter le supercalculateur.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Société spécifique au Bosquel</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Entité annoncée comme devant être créée avec siège au Bosquel et obligation de travailler avec les étudiants amiénois.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Fluidstack</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Ancien projet pressenti, finalement abandonné au profit d’une réorientation vers les États-Unis selon plusieurs articles.</div>
-        </div></div>
-    </div>
-    <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #7c3aed; border-radius:18px; padding:18px; margin:0 0 18px 0;">
-      <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Institutions territoriales</h2>
-      <div style="font-size:0; text-align:left;">
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">CC2SO</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Communauté de communes Somme Sud-Ouest ; pilote territorial de l’AMI et propriétaire des terrains via un bail de 99 ans.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Alain Desfosses</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Président de la CC2SO ; défend le projet, rappelle l’urgence de choisir un opérateur avant l’échéance Fast Track et promet une présentation aux riverains.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Laurent Snoeck</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Directeur général des services ; répond aux inquiétudes sur l’eau en évoquant un circuit fermé et une consommation de 265 m³/an.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Arnaud De Monclin</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Maire de Courcelles-sous-Thoix ; exprime une inquiétude sur les besoins en eau et demande une étude indépendante sur la nappe phréatique.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Maison des Jeunes d’Hornoy-le-Bourg</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Lieu de la réunion communautaire durant laquelle le choix du lauréat de l’AMI est présenté.</div>
-        </div></div>
-    </div>
-    <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #0f766e; border-radius:18px; padding:18px; margin:0 0 18px 0;">
-      <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">État / acteurs publics nationaux</h2>
-      <div style="font-size:0; text-align:left;">
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">État</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Demande à RTE de pré-réserver une capacité de 1 GW sur le site du Bosquel ; inscrit le site dans la logique Fast Track.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Bercy</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Suit la sécurisation des investissements IA et la sélection des sites de centres de données.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Anne Le Hénanff</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Ministre déléguée chargée de l’IA et du Numérique ; associée aux Rencontres des centres de données et au suivi des sites sécurisés.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">François Bayrou</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Cité comme Premier ministre ayant annoncé une liste de sites industriels clés en main dédiés aux data centers.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Emmanuel Macron</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Porteur politique du plan IA de 109 milliards d’euros annoncé lors du Sommet pour l’action sur l’IA.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">CRE</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">A approuvé la procédure spécifique de raccordement rapide pour installations de très forte puissance.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">DGE</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Direction générale des entreprises ; citée dans l’accompagnement des porteurs de projets via la Task Force de l’État.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Business France</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Membre de la Task Force de l’État accompagnant les entreprises de data centers.</div>
-        </div></div>
-    </div>
-    <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #f97316; border-radius:18px; padding:18px; margin:0 0 18px 0;">
-      <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Énergie / raccordement</h2>
-      <div style="font-size:0; text-align:left;">
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">RTE</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Gestionnaire du réseau ; pré-réservation de capacité, procédure Fast Track, raccordement prioritaire et réflexion sur l’allocation dynamique des capacités.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Nathalie Lemaître</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Directrice générale du pôle Clients Systèmes Innovation chez RTE ; alerte sur les capacités réservées et la nécessité de servir les projets les plus crédibles.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">EDF</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Cité avec l’État et RTE comme acteur proposant ou identifiant des sites d’implantation possibles en Picardie.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Lignes haute tension</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Deux lignes haute tension traversent ou alimentent le site, constituant un facteur d’attractivité pour un projet très consommateur d’électricité.</div>
-        </div></div>
-    </div>
-    <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #0891b2; border-radius:18px; padding:18px; margin:0 0 18px 0;">
-      <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Recherche / formation / écosystème IA</h2>
-      <div style="font-size:0; text-align:left;">
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Étudiants amiénois</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Le futur opérateur doit travailler avec les étudiants amiénois, selon les obligations évoquées par la CC2SO.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Entreprises et start-up utilisatrices</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Des espaces doivent être dédiés aux entreprises et start-up souhaitant utiliser la puissance du supercalculateur.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Mistral AI</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Cité comme acteur potentiellement impacté par le retrait de Fluidstack sur un autre site et comme symbole des besoins français en calcul souverain.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Eclairion</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Cité dans le contexte du retrait de Fluidstack sur un projet en région parisienne avec Mistral.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Anthropic</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Client américain de Fluidstack dans le cadre d’un contrat massif aux États-Unis, contribuant à la réorientation de Fluidstack.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Google</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Cité comme investisseur potentiel dans Fluidstack, renforçant l’attraction américaine.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Nvidia</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Cité comme fabricant de GPU dont les délais conditionnent les projets de calcul IA.</div>
-        </div></div>
-    </div>
-    <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #dc2626; border-radius:18px; padding:18px; margin:0 0 18px 0;">
-      <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Positions critiques / points de vigilance</h2>
-      <div style="font-size:0; text-align:left;">
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Inquiétude sur l’eau</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Préoccupation portée par Arnaud De Monclin sur les besoins du supercalculateur et la capacité de la nappe phréatique.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Nappe phréatique</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Ressource hydrique dont la capacité est interrogée au regard des usages existants et du futur projet.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Crédibilité des porteurs de projet</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Sujet soulevé par RTE : sortir de la logique premier demandeur, premier servi pour privilégier les projets réellement matures.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Abandon de Fluidstack</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Épisode qui fragilise le plan IA français et pose la question de la capacité de la France à concrétiser ses ambitions IA.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Souveraineté numérique</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Argument central du projet, mais fragilisé par la dépendance aux capitaux, GPU et grands clients extra-européens.</div>
-        </div></div>
-    </div>
-    <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #64748b; border-radius:18px; padding:18px; margin:0 0 18px 0;">
-      <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Médias / sources cités</h2>
-      <div style="font-size:0; text-align:left;">
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Courrier picard</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Source locale principale sur le choix du lauréat de l’AMI et les échanges au sein de la CC2SO.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">La Tribune</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Relaye l’abandon de Fluidstack et l’arbitrage économique en faveur des États-Unis.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Le Figaro</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Couvre le retrait de Fluidstack et ses conséquences sur le projet de Bosquel.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">DCmag</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Suit les infrastructures data centers et l’ouverture de l’AMI du Bosquel.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">L’Usine Nouvelle</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Analyse la politique de raccordement électrique de RTE pour les datacenters.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Next INpact</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Analyse les sites Fast Track, les capacités sécurisées et les annonces gouvernementales.</div>
-        </div>
-        <div class="actor-card-mobile" style="display:inline-block; vertical-align:top; width:calc(50% - 12px); min-width:260px; background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; margin:0 8px 10px 0;">
-          <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Services RTE</div>
-          <div style="color:#475569; font-size:12px; line-height:1.35;">Source institutionnelle sur la pré-réservation de capacité et la prolongation du site du Bosquel.</div>
-        </div></div>
+  <!-- CATEGORIE 1 : Projet central -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #111827; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Projet central</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Campus numérique et industriel du Bosquel</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Projet de supercalculateur / campus IA sur la ZAC du Bosquel, site Fast Track RTE, avec une capacité pré-réservée de 1 GW.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">ZAC du Bosquel</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Site de 46 hectares, dont 33 hectares dédiés au futur opérateur et 13 hectares vendus à RTE pour le raccordement.</div>
+      </div>
+      
     </div>
   </div>
 
-  <div style="margin-top:8px; padding:16px 18px; border-radius:14px; background:#fff7ed; border:1px solid #fed7aa; color:#7c2d12; font-size:13px; line-height:1.45;">
+  <!-- CATEGORIE 2 : Porteur / lauréat industriel -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #2563eb; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Porteur / lauréat industriel</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Silver Bands France Computer Center Bosquel</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Lauréat de l’AMI choisi par les élus de la CC2SO pour construire puis exploiter le supercalculateur.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Société spécifique au Bosquel</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Entité annoncée comme devant être créée avec siège au Bosquel et obligation de travailler avec les étudiants amiénois.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Fluidstack</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Ancien projet pressenti, finalement abandonné au profit d’une réorientation vers les États-Unis selon plusieurs articles.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 3 : Institutions territoriales -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #7c3aed; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Institutions territoriales</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">CC2SO</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Communauté de communes Somme Sud-Ouest ; pilote territorial de l’AMI et propriétaire des terrains via un bail de 99 ans.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Alain Desfosses</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Président de la CC2SO ; défend le projet, rappelle l’urgence de choisir un opérateur avant l’échéance Fast Track et promet une présentation aux riverains.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Directeur général des services ; répond aux inquiétudes sur l’eau en évoquant un circuit fermé et une consommation de 265 m³/an.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Arnaud De Monclin</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Maire de Courcelles-sous-Thoix ; exprime une inquiétude sur les besoins en eau et demande une étude indépendante sur la nappe phréatique.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Maison des Jeunes d’Hornoy-le-Bourg</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Lieu de la réunion communautaire durant laquelle le choix du lauréat de l’AMI est présenté.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 4 : État / acteurs publics nationaux -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #0f766e; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">État / acteurs publics nationaux</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">État</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Demande à RTE de pré-réserver une capacité de 1 GW sur le site du Bosquel ; inscrit le site dans la logique Fast Track.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Bercy</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Suit la sécurisation des investissements IA et la sélection des sites de centres de données.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Anne Le Hénanff</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Ministre déléguée chargée de l’IA et du Numérique ; associée aux Rencontres des centres de données et au suivi des sites sécurisés.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">François Bayrou</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Cité comme Premier ministre ayant annoncé une liste de sites industriels clés en main dédiés aux data centers.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Emmanuel Macron</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Porteur politique du plan IA de 109 milliards d’euros annoncé lors du Sommet pour l’action sur l’IA.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">CRE</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">A approuvé la procédure spécifique de raccordement rapide pour installations de très forte puissance.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">DGE</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Direction générale des entreprises ; citée dans l’accompagnement des porteurs de projets via la Task Force de l’État.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Business France</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Membre de la Task Force de l’État accompagnant les entreprises de data centers.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 5 : Énergie / raccordement -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #f97316; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Énergie / raccordement</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">RTE</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Gestionnaire du réseau ; pré-réservation de capacité, procédure Fast Track, raccordement prioritaire et réflexion sur l’allocation dynamique des capacités.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Nathalie Lemaître</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Directrice générale du pôle Clients Systèmes Innovation chez RTE ; alerte sur les capacités réservées et la nécessité de servir les projets les plus crédibles.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">EDF</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Cité avec l’État et RTE comme acteur proposant ou identifiant des sites d’implantation possibles en Picardie.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Lignes haute tension</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Deux lignes haute tension traversent ou alimentent le site, constituant un facteur d’attractivité pour un projet très consommateur d’électricité.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 6 : Recherche / formation / écosystème IA -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #0891b2; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Recherche / formation / écosystème IA</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Étudiants amiénois</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Le futur opérateur doit travailler avec les étudiants amiénois, selon les obligations évoquées par la CC2SO.</div>
+      </div>
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Entreprises et start-up utilisatrices</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Des espaces doivent être dédiés aux entreprises et start-up souhaitant utiliser la puissance du supercalculateur.</div>
+      </div>
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Mistral AI</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Cité comme acteur potentiellement impacté par le retrait de Fluidstack sur un autre site et comme symbole des besoins français en calcul souverain.</div>
+      </div>
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Eclairion</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Cité dans le contexte du retrait de Fluidstack sur un projet en région parisienne avec Mistral.</div>
+      </div>
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Anthropic</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Client américain de Fluidstack dans le cadre d’un contrat massif aux États-Unis, contribuant à la réorientation de Fluidstack.</div>
+      </div>
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Google</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Cité comme investisseur potentiel dans Fluidstack, renforçant l’attraction américaine.</div>
+      </div>
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Nvidia</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Cité comme fabricant de GPU dont les délais conditionnent les projets de calcul IA.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 7 : Positions critiques / points de vigilance -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #dc2626; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Positions critiques / points de vigilance</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Inquiétude sur l’eau</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Préoccupation portée par Arnaud De Monclin sur les besoins du supercalculateur et la capacité de la nappe phréatique.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Nappe phréatique</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Ressource hydrique dont la capacité est interrogée au regard des usages existants et du futur projet.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Crédibilité des porteurs de projet</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Sujet soulevé par RTE : sortir de la logique premier demandeur, premier servi pour privilégier les projets réellement matures.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Abandon de Fluidstack</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Épisode qui fragilise le plan IA français et pose la question de la capacité de la France à concrétiser ses ambitions IA.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Souveraineté numérique</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Argument central du projet, mais fragilisé par la dépendance aux capitaux, GPU et grands clients extra-européens.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 8 : Médias / sources cités -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #64748b; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Médias / sources cités</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Courrier picard</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Source locale principale sur le choix du lauréat de l’AMI et les échanges au sein de la CC2SO.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">La Tribune</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Relaye l’abandon de Fluidstack et l’arbitrage économique en faveur des États-Unis.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Le Figaro</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Couvre le retrait de Fluidstack et ses conséquences sur le projet de Bosquel.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">DCmag</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Suit les infrastructures data centers et l’ouverture de l’AMI du Bosquel.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">L’Usine Nouvelle</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Analyse la politique de raccordement électrique de RTE pour les datacenters.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Next INpact</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Analyse les sites Fast Track, les capacités sécurisées et les annonces gouvernementales.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Services RTE</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Source institutionnelle sur la pré-réservation de capacité et la prolongation du site du Bosquel.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Lecture synthétique -->
+  <div style="margin-top:8px; padding:16px 18px; border-radius:14px; background:#fff7ed; border:1px solid #fed7aa; color:#7c2d12; font-size:13px; line-height:1.45; box-sizing: border-box;">
     <strong>Lecture synthétique :</strong> contrairement à Fouju ou aux Pennes-Mirabeau, le corpus ne fait pas apparaître de collectif local d’opposition structuré. Le principal point de vigilance explicitement formulé vient d’Arnaud De Monclin sur l’eau et la nappe phréatique. La cartographie montre surtout une chaîne institutionnelle et industrielle : CC2SO, RTE, État, Silver Bands, et l’écosystème IA / souveraineté numérique.
   </div>
 
-</div></body></html>
+</div>
