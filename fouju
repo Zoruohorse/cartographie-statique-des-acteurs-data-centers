@@ -1,0 +1,349 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+/* Permet à la grille de repasser proprement sur une seule colonne sur les écrans mobiles */
+@media screen and (max-width: 850px) {
+  .grid-container {
+    grid-template-columns: 1fr !important;
+  }
+}
+</style>
+
+<div style="font-family:Arial, Helvetica, sans-serif; color:#0f172a; background:#f8fafc; border:1px solid #e2e8f0; border-radius:18px; padding:24px; max-width:1280px; margin:0 auto; box-sizing: border-box;">
+
+  <!-- Bandeau titre -->
+  <div style="background:#0f172a; color:#ffffff; border-radius:16px; padding:24px 26px; margin-bottom:18px;">
+    <h1 style="margin:0 0 8px 0; font-size:28px; line-height:1.1;">Cartographie des acteurs — Campus IA Fouju</h1>
+    <p style="margin:0; color:#cbd5e1; font-size:14px; line-height:1.4;">Lecture en deux colonnes par familles d’acteurs : noyau d’opposition, personnes nommées, élus critiques, élus favorables ou nuancés, réseau élargi et relais militants.</p>
+  </div>
+
+  <!-- Légende -->
+  <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:12px; padding:12px 14px; margin-bottom:20px;">
+    <span style="display:inline-block; margin:4px 10px 4px 0; font-size:12px; font-weight:600; color:#334155;">
+      <span style="display:inline-block; width:10px; height:10px; border-radius:10px; background:#15803d; margin-right:6px;"></span>Noyau d’opposition local
+    </span>
+    <span style="display:inline-block; margin:4px 10px 4px 0; font-size:12px; font-weight:600; color:#334155;">
+      <span style="display:inline-block; width:10px; height:10px; border-radius:10px; background:#dc2626; margin-right:6px;"></span>Opposants nommément cités
+    </span>
+    <span style="display:inline-block; margin:4px 10px 4px 0; font-size:12px; font-weight:600; color:#334155;">
+      <span style="display:inline-block; width:10px; height:10px; border-radius:10px; background:#f97316; margin-right:6px;"></span>Habitants / riverains cités
+    </span>
+    <span style="display:inline-block; margin:4px 10px 4px 0; font-size:12px; font-weight:600; color:#334155;">
+      <span style="display:inline-block; width:10px; height:10px; border-radius:10px; background:#7c3aed; margin-right:6px;"></span>Élus critiques
+    </span>
+    <span style="display:inline-block; margin:4px 10px 4px 0; font-size:12px; font-weight:600; color:#334155;">
+      <span style="display:inline-block; width:10px; height:10px; border-radius:10px; background:#2563eb; margin-right:6px;"></span>Élus favorables ou nuancés
+    </span>
+    <span style="display:inline-block; margin:4px 10px 4px 0; font-size:12px; font-weight:600; color:#334155;">
+      <span style="display:inline-block; width:10px; height:10px; border-radius:10px; background:#0891b2; margin-right:6px;"></span>Réseau élargi anti-data centers
+    </span>
+    <span style="display:inline-block; margin:4px 10px 4px 0; font-size:12px; font-weight:600; color:#334155;">
+      <span style="display:inline-block; width:10px; height:10px; border-radius:10px; background:#64748b; margin-right:6px;"></span>Médias / relais militants
+    </span>
+  </div>
+
+  <!-- Élément Central -->
+  <div style="text-align:center; padding:22px 10px 26px 10px; margin-bottom:16px;">
+    <div style="display:inline-block; background:#111827; color:#ffffff; border-radius:999px; padding:22px 34px; box-shadow:0 10px 25px rgba(15,23,42,0.18);">
+      <div style="font-size:28px; font-weight:800; line-height:1.1;">Campus IA Fouju</div>
+      <div style="font-size:13px; color:#cbd5e1; margin-top:6px;">Projet central structurant les oppositions, soutiens et positions nuancées</div>
+    </div>
+  </div>
+
+  <!-- CATEGORIE 1 : Noyau d’opposition local -->
+  <div style="margin:18px 0; padding:16px; border-radius:14px; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #15803d; box-sizing: border-box;">
+    <h2 style="font-size:19px; margin:0 0 12px 0; color:#0f172a; line-height:1.2;">Noyau d’opposition local</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="padding:11px 12px; border-left:5px solid #15803d; border-top:1px solid #bbf7d0; border-right:1px solid #bbf7d0; border-bottom:1px solid #bbf7d0; border-radius:12px; background:#f0fdf4; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Stop Campus IA</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Collectif d’opposition directement structuré contre le projet.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #15803d; border-top:1px solid #bbf7d0; border-right:1px solid #bbf7d0; border-bottom:1px solid #bbf7d0; border-radius:12px; background:#f0fdf4; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">FNE 77</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Acteur pivot : enquête publique, conférence de presse, critique environnementale.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #15803d; border-top:1px solid #bbf7d0; border-right:1px solid #bbf7d0; border-bottom:1px solid #bbf7d0; border-radius:12px; background:#f0fdf4; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">FNE Île-de-France</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Relais régional de la critique des data centers en Île-de-France.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #15803d; border-top:1px solid #bbf7d0; border-right:1px solid #bbf7d0; border-bottom:1px solid #bbf7d0; border-radius:12px; background:#f0fdf4; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Les Soulèvements de la Terre</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Mouvement écologiste mobilisé contre Campus IA.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #15803d; border-top:1px solid #bbf7d0; border-right:1px solid #bbf7d0; border-bottom:1px solid #bbf7d0; border-radius:12px; background:#f0fdf4; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Confédération paysanne 77</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Opposition agricole : terres, eau, souveraineté alimentaire.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #15803d; border-top:1px solid #bbf7d0; border-right:1px solid #bbf7d0; border-bottom:1px solid #bbf7d0; border-radius:12px; background:#f0fdf4; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">LPO 77</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Association environnementale citée parmi les organisations mobilisées.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #15803d; border-top:1px solid #bbf7d0; border-right:1px solid #bbf7d0; border-bottom:1px solid #bbf7d0; border-radius:12px; background:#f0fdf4; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Les Écologistes de Melun Val de Seine</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Organisation locale représentée par Dorothée Villemaux.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #15803d; border-top:1px solid #bbf7d0; border-right:1px solid #bbf7d0; border-bottom:1px solid #bbf7d0; border-radius:12px; background:#f0fdf4; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Solidaires / Solidaires Informatique</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Syndicats mobilisés dans la conférence de presse.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #15803d; border-top:1px solid #bbf7d0; border-right:1px solid #bbf7d0; border-bottom:1px solid #bbf7d0; border-radius:12px; background:#f0fdf4; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Alliance écologique et sociale</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Coalition syndicats-associations appelant à un moratoire.</div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- CATEGORIE 2 : Opposants nommément cités -->
+  <div style="margin:18px 0; padding:16px; border-radius:14px; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #dc2626; box-sizing: border-box;">
+    <h2 style="font-size:19px; margin:0 0 12px 0; color:#0f172a; line-height:1.2;">Opposants nommément cités</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="padding:11px 12px; border-left:5px solid #dc2626; border-top:1px solid #fecaca; border-right:1px solid #fecaca; border-bottom:1px solid #fecaca; border-radius:12px; background:#fef2f2; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Jean-François Dupont</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">FNE 77 — critique le caractère hors norme, les PFAS, l’artificialisation et la procédure accélérée.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #dc2626; border-top:1px solid #fecaca; border-right:1px solid #fecaca; border-bottom:1px solid #fecaca; border-radius:12px; background:#fef2f2; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Jane Buisson</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">FNE 77 — contribution à l’enquête publique et demande d’allongement.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #dc2626; border-top:1px solid #fecaca; border-right:1px solid #fecaca; border-bottom:1px solid #fecaca; border-radius:12px; background:#fef2f2; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Pauline Isambert</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Confédération paysanne 77 — terres agricoles, eau, PFAS, souveraineté alimentaire.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #dc2626; border-top:1px solid #fecaca; border-right:1px solid #fecaca; border-bottom:1px solid #fecaca; border-radius:12px; background:#fef2f2; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Aline Aurias</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Confédération paysanne — artificialisation, pression foncière, flou sur l’eau.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #dc2626; border-top:1px solid #fecaca; border-right:1px solid #fecaca; border-bottom:1px solid #fecaca; border-radius:12px; background:#fef2f2; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">William Elie</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Alliance écologique et sociale — appelle à un moratoire.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #dc2626; border-top:1px solid #fecaca; border-right:1px solid #fecaca; border-bottom:1px solid #fecaca; border-radius:12px; background:#fef2f2; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Dorothée Villemaux</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Écologistes de Melun Val de Seine — incite à consulter l’enquête publique.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #dc2626; border-top:1px solid #fecaca; border-right:1px solid #fecaca; border-bottom:1px solid #fecaca; border-radius:12px; background:#fef2f2; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Maxime Colin</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">FNE IDF — critique la vague de data centers et l’argument de souveraineté.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #dc2626; border-top:1px solid #fecaca; border-right:1px solid #fecaca; border-bottom:1px solid #fecaca; border-radius:12px; background:#fef2f2; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Lou Welgrym</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Data for Good — critique dérégulation et limitation des recours citoyens.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #dc2626; border-top:1px solid #fecaca; border-right:1px solid #fecaca; border-bottom:1px solid #fecaca; border-radius:12px; background:#fef2f2; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Anne-Laure Ligozat</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Critique l’absence de débat national.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #dc2626; border-top:1px solid #fecaca; border-right:1px solid #fecaca; border-bottom:1px solid #fecaca; border-radius:12px; background:#fef2f2; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Marie Garin</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Souligne que la planification repose sur un pari d’usage futur.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #dc2626; border-top:1px solid #fecaca; border-right:1px solid #fecaca; border-bottom:1px solid #fecaca; border-radius:12px; background:#fef2f2; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Marlène De Bank</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">The Shift Project — risques de conflits d’usage électriques.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #dc2626; border-top:1px solid #fecaca; border-right:1px solid #fecaca; border-bottom:1px solid #fecaca; border-radius:12px; background:#fef2f2; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Ophélie Coelho</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">IRIS — critique un débat public arrivant après les décisions.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #dc2626; border-top:1px solid #fecaca; border-right:1px solid #fecaca; border-bottom:1px solid #fecaca; border-radius:12px; background:#fef2f2; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Irénée Régnauld</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Critique du gigantisme numérique et de la souveraineté jugée illusoire.</div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- CATEGORIE 3 : Habitants / riverains cités -->
+  <div style="margin:18px 0; padding:16px; border-radius:14px; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #f97316; box-sizing: border-box;">
+    <h2 style="font-size:19px; margin:0 0 12px 0; color:#0f172a; line-height:1.2;">Habitants / riverains cités</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="padding:11px 12px; border-left:5px solid #f97316; border-top:1px solid #fed7aa; border-right:1px solid #fed7aa; border-bottom:1px solid #fed7aa; border-radius:12px; background:#fff7ed; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">M. et Mme Fernique</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Habitants de Fouju — sentiment de décision imposée et interrogation sur l’utilité du projet.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #f97316; border-top:1px solid #fed7aa; border-right:1px solid #fed7aa; border-bottom:1px solid #fed7aa; border-radius:12px; background:#fff7ed; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Christine Scialom</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Habitante / propriétaire concernée — sentiment de déclassement territorial.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #f97316; border-top:1px solid #fed7aa; border-right:1px solid #fed7aa; border-bottom:1px solid #fed7aa; border-radius:12px; background:#fff7ed; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Maud*</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Maraîchère bio près du site — inquiétudes sur les pollutions atmosphériques et les PFAS.</div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- CATEGORIE 4 : Élus critiques -->
+  <div style="margin:18px 0; padding:16px; border-radius:14px; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #7c3aed; box-sizing: border-box;">
+    <h2 style="font-size:19px; margin:0 0 12px 0; color:#0f172a; line-height:1.2;">Élus critiques</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="padding:11px 12px; border-left:5px solid #7c3aed; border-top:1px solid #ddd6fe; border-right:1px solid #ddd6fe; border-bottom:1px solid #ddd6fe; border-radius:12px; background:#f5f3ff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Arnaud Saint-Martin</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Député LFI de Seine-et-Marne — principal élu opposé ; veut faire de Fouju un enjeu national.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #7c3aed; border-top:1px solid #ddd6fe; border-right:1px solid #ddd6fe; border-bottom:1px solid #ddd6fe; border-radius:12px; background:#f5f3ff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Jean-Luc Mélenchon</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Critique générale du modèle de « colonie numérique ».</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #7c3aed; border-top:1px solid #ddd6fe; border-right:1px solid #ddd6fe; border-bottom:1px solid #ddd6fe; border-radius:12px; background:#f5f3ff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Députés socialistes non nommés</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Position d’encadrement des simplifications applicables aux data centers.</div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- CATEGORIE 5 : Élus favorables ou nuancés -->
+  <div style="margin:18px 0; padding:16px; border-radius:14px; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #2563eb; box-sizing: border-box;">
+    <h2 style="font-size:19px; margin:0 0 12px 0; color:#0f172a; line-height:1.2;">Élus favorables ou nuancés</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="padding:11px 12px; border-left:5px solid #2563eb; border-top:1px solid #bfdbfe; border-right:1px solid #bfdbfe; border-bottom:1px solid #bfdbfe; border-radius:12px; background:#eff6ff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Jonathan Wochenmayer</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Maire de Fouju — très favorable ; retombées économiques, emplois, recettes fiscales.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #2563eb; border-top:1px solid #bfdbfe; border-right:1px solid #bfdbfe; border-bottom:1px solid #bfdbfe; border-radius:12px; background:#eff6ff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Jean-Louis Thiériot</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Député LR — favorable au nom de la souveraineté technologique.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #2563eb; border-top:1px solid #bfdbfe; border-right:1px solid #bfdbfe; border-bottom:1px solid #bfdbfe; border-radius:12px; background:#eff6ff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Christian Poteau / Pointeau</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Président de la CC Brie des Rivières et Châteaux — plutôt favorable, attentif aux effets locaux.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #2563eb; border-top:1px solid #bfdbfe; border-right:1px solid #bfdbfe; border-bottom:1px solid #bfdbfe; border-radius:12px; background:#eff6ff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Hervé Jeannin</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Maire de Crisenoy — position nuancée ; inquiétudes sur paysage, inondations, prison.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #2563eb; border-top:1px solid #bfdbfe; border-right:1px solid #bfdbfe; border-bottom:1px solid #bfdbfe; border-radius:12px; background:#eff6ff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Aymeric Durox</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Sénateur RN — approche pragmatique : mieux en France qu’ailleurs.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #2563eb; border-top:1px solid #bfdbfe; border-right:1px solid #bfdbfe; border-bottom:1px solid #bfdbfe; border-radius:12px; background:#eff6ff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Denis Larghero</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Maire UDI de Meudon — favorable aux infrastructures numériques comme attractivité.</div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- CATEGORIE 6 : Réseau élargi anti-data centers -->
+  <div style="margin:18px 0; padding:16px; border-radius:14px; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #0891b2; box-sizing: border-box;">
+    <h2 style="font-size:19px; margin:0 0 12px 0; color:#0f172a; line-height:1.2;">Réseau élargi anti-data centers</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="padding:11px 12px; border-left:5px solid #0891b2; border-top:1px solid #a5f3fc; border-right:1px solid #a5f3fc; border-bottom:1px solid #a5f3fc; border-radius:12px; background:#ecfeff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Le Nuage était sous nos pieds</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Collectif marseillais critique des data centers.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #0891b2; border-top:1px solid #a5f3fc; border-right:1px solid #a5f3fc; border-bottom:1px solid #a5f3fc; border-radius:12px; background:#ecfeff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Collectif du Bourget</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Mobilisation locale contre un projet Segro.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #0891b2; border-top:1px solid #a5f3fc; border-right:1px solid #a5f3fc; border-bottom:1px solid #a5f3fc; border-radius:12px; background:#ecfeff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Collectif de Vitry-sur-Seine</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Collectif cité dans la mobilisation francilienne.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #0891b2; border-top:1px solid #a5f3fc; border-right:1px solid #a5f3fc; border-bottom:1px solid #a5f3fc; border-radius:12px; background:#ecfeff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Collectif de Wissous</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Collectif cité contre un projet CyrusOne.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #0891b2; border-top:1px solid #a5f3fc; border-right:1px solid #a5f3fc; border-bottom:1px solid #a5f3fc; border-radius:12px; background:#ecfeff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">La Quadrature du Net</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Association critique du numérique, favorable à un moratoire.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #0891b2; border-top:1px solid #a5f3fc; border-right:1px solid #a5f3fc; border-bottom:1px solid #a5f3fc; border-radius:12px; background:#ecfeff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Hiatus</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Collectif critique du numérique cité avec La Quadrature du Net.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #0891b2; border-top:1px solid #a5f3fc; border-right:1px solid #a5f3fc; border-bottom:1px solid #a5f3fc; border-radius:12px; background:#ecfeff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Data for Good</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Association critique de la dérégulation et de la réduction des recours.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #0891b2; border-top:1px solid #a5f3fc; border-right:1px solid #a5f3fc; border-bottom:1px solid #a5f3fc; border-radius:12px; background:#ecfeff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">The Shift Project</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Think tank alertant sur les conflits d’usage énergétiques.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #0891b2; border-top:1px solid #a5f3fc; border-right:1px solid #a5f3fc; border-bottom:1px solid #a5f3fc; border-radius:12px; background:#ecfeff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">X-alternative</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Association mentionnée pour contre-expertises sur l’IA.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #0891b2; border-top:1px solid #a5f3fc; border-right:1px solid #a5f3fc; border-bottom:1px solid #a5f3fc; border-radius:12px; background:#ecfeff; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">STopMicro</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Référence techno-critique contre les industries numériques.</div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- CATEGORIE 7 : Médias / relais militants -->
+  <div style="margin:18px 0; padding:16px; border-radius:14px; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #64748b; box-sizing: border-box;">
+    <h2 style="font-size:19px; margin:0 0 12px 0; color:#0f172a; line-height:1.2;">Médias / relais militants</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="padding:11px 12px; border-left:5px solid #64748b; border-top:1px solid #cbd5e1; border-right:1px solid #cbd5e1; border-bottom:1px solid #cbd5e1; border-radius:12px; background:#f8fafc; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Le Chiffon</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Journal militant ; soirée-débat « Contre les data centers et leur monde ».</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #64748b; border-top:1px solid #cbd5e1; border-right:1px solid #cbd5e1; border-bottom:1px solid #cbd5e1; border-radius:12px; background:#f8fafc; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Actualité des luttes</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Média militant relayant les mobilisations en Île-de-France.</div>
+      </div>
+      
+      <div style="padding:11px 12px; border-left:5px solid #64748b; border-top:1px solid #cbd5e1; border-right:1px solid #cbd5e1; border-bottom:1px solid #cbd5e1; border-radius:12px; background:#f8fafc; box-sizing: border-box;">
+        <div style="font-size:14px; font-weight:700; line-height:1.15; color:#0f172a; margin-bottom:5px;">Printemps des luttes locales</div>
+        <div style="font-size:12px; line-height:1.35; color:#475569;">Cadre militant du pique-nique contre Campus IA.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Lecture synthétique -->
+  <div style="margin-top:20px; padding:15px 17px; border-radius:12px; background:#fff7ed; border:1px solid #fed7aa; color:#7c2d12; font-size:13px; line-height:1.45; box-sizing: border-box;">
+    <strong>Lecture synthétique :</strong> le noyau d’opposition repose principalement sur FNE 77, Stop Campus IA, la Confédération paysanne, Les Soulèvements de la Terre, la LPO 77, Solidaires et les Écologistes de Melun Val de Seine. Les élus se répartissent entre opposition politique marquée, soutien économique/technologique et positions plus prudentes sur les effets locaux.
+  </div>
+
+</div>
