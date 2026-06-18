@@ -1,0 +1,274 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+/* Permet aux fiches de basculer proprement sur une seule colonne sur smartphone */
+@media screen and (max-width: 850px) {
+  .grid-container {
+    grid-template-columns: 1fr !important;
+  }
+}
+</style>
+
+<div style="font-family:Arial, Helvetica, sans-serif; color:#0f172a; background:#f8fafc; border:1px solid #e2e8f0; border-radius:18px; padding:24px; width:100%; max-width:1200px; margin:0 auto; overflow:hidden; box-sizing: border-box;">
+
+  <!-- Bandeau titre -->
+  <div style="background:#111827; color:#ffffff; border-radius:16px; padding:24px; margin-bottom:20px;">
+    <h1 style="margin:0 0 8px 0; font-size:26px; line-height:1.15;">Cartographie des acteurs — Dunkerque / Loon-Plage</h1>
+    <p style="margin:0; color:#cbd5e1; font-size:14px; line-height:1.45;">Lecture en deux colonnes : projet central, élus moteurs, porteurs industriels, énergie/raccordement, experts critiques, points de vigilance et sources citées.</p>
+  </div>
+
+  <!-- Légende -->
+  <div style="display:block; margin:0 0 22px 0; padding:14px 16px; background:#ffffff; border:1px solid #e2e8f0; border-radius:14px;">
+    <span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#111827;"></i>Projet central</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#2563eb;"></i>Élus / acteurs favorables ou moteurs</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#0f766e;"></i>Porteurs industriels</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#7c3aed;"></i>Énergie / raccordement / foncier</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#dc2626;"></i>Experts / voix critiques</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#f97316;"></i>Points de vigilance / griefs</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#64748b;"></i>Médias / sources cités</span>
+  </div>
+
+  <!-- Élément Central -->
+  <div style="text-align:center; padding:18px 0 24px 0; margin-bottom:18px;">
+    <div style="display:inline-block; background:#111827; color:#ffffff; border-radius:999px; padding:22px 34px;">
+      <strong style="display:block; font-size:26px; line-height:1.1;">SoftBank — Loon-Plage / Dunkerque</strong>
+      <small style="display:block; margin-top:6px; color:#cbd5e1; font-size:13px;">Projet de data center IA d’environ 1,3 GW à terme, accompagné d’une usine de modules Schneider sur le port de Dunkerque</small>
+    </div>
+  </div>
+
+  <!-- CATEGORIE 1 : Projet central -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #111827; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Projet central</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Data center SoftBank — Loon-Plage / Dunkerque</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Projet de data center IA porté par SoftBank à Loon-Plage, près de Dunkerque. Le site devrait atteindre progressivement environ 1,3 GW de capacité dans la première phase des investissements annoncés lors de Choose France.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Usine de modules Schneider — port de Dunkerque</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Projet d’usine de modules électriques / modules préfabriqués pour data centers, en lien avec Schneider Electric, destiné à soutenir les projets SoftBank.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Loon-Plage</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Commune / secteur d’implantation cité pour le data center près de Dunkerque.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 2 : Élus / acteurs favorables ou moteurs -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #2563eb; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Élus / acteurs favorables ou moteurs</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Patrice Vergriete</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Maire de Dunkerque et président de la Communauté urbaine de Dunkerque. Défend le projet comme un investissement historique pour le territoire, met en avant les retombées économiques, l’emploi, la fiscalité et la stratégie d’industries décarbonées.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Xavier Bertrand</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Président de la Région Hauts-de-France. Porte un discours très favorable aux investissements IA et data centers, insiste sur la souveraineté, la formation, l’emploi et les usages de l’intelligence artificielle.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Emmanuel Macron</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Président de la République. Figure politique de cadrage national via Choose France et la stratégie d’attractivité des investissements IA.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Communauté urbaine de Dunkerque</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Institution territoriale présidée par Patrice Vergriete, au cœur de la stratégie locale de développement industriel et de réindustrialisation.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Région Hauts-de-France</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Acteur politique régional majeur dans les discussions avec SoftBank et dans la mise en valeur des atouts régionaux.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 3 : Porteurs industriels -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #0f766e; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Porteurs industriels</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">SoftBank Group</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Porteur principal du projet. Annonce jusqu’à 75 Md€ d’investissements en France dans les infrastructures IA, dont une première phase de 45 Md€ dans les Hauts-de-France.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Masayoshi Son</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Fondateur et président-directeur général de SoftBank Group. Incarne l’annonce d’investissement massif en France.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Sumer Juneja</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Associé gérant de SoftBank Vision Fund. Détaille la logique de sélection des sites et précise la montée en capacité des projets des Hauts-de-France.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Schneider Electric</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Partenaire technologique et industriel stratégique de SoftBank. Doit concevoir et fournir des infrastructures et modules d’alimentation électrique pour les data centers.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Aymeric Renaud</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Président de Schneider Electric France. Explique le rôle de Schneider et confirme l’installation d’une préfab factory à Dunkerque.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Olivier Blum</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Directeur général de Schneider Electric. Présente le rôle de l’entreprise dans le design et la fourniture des équipements.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Sesterce</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Partenaire cité du projet global Hauts-de-France, aux côtés de SoftBank, Schneider Electric et EDF.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">EDF</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Partenaire énergétique cité dans le projet global. L’électricité française décarbonée apparaît comme un avantage décisif dans le choix des sites.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 4 : Énergie / raccordement / foncier -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #7c3aed; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Énergie / raccordement / foncier</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">RTE</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Gestionnaire du réseau de transport d’électricité. La procédure fast track a joué un rôle central dans la sélection et la crédibilité des sites.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Grand Port Maritime de Dunkerque</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Acteur foncier et industriel important. Accueille le projet d’usine Schneider et a launched un AMI pour un autre data center selon Patrice Vergriete.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">ArcelorMittal</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Industriel local cité dans le cadre des travaux menés sur la réduction de la consommation d’eau industrielle sur le territoire.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Projet EPR de Gravelines</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Élément structurant du récit territorial sur l’électricité décarbonée et la capacité du dunkerquois à accueillir de nouvelles industries électriques.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Éolien offshore</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Autre pilier mis en avant dans le discours territorial sur la disponibilité d’une électricité décarbonée.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 5 : Experts / voix critiques -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #dc2626; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Experts / voix critiques</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Loup Cellard</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Sociologue spécialiste des data centers. Souligne le faible nombre d’emplois créés au regard de l’emprise au sol et des montants investis, et rappelle les enjeux d’eau et d’électricité.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Sylvain Bersinger</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Économiste du cabinet Bersingéco. Estime que les data centers génèrent peu d’emplois directs une fois construits et interroge leurs bénéfices économiques réels.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 6 : Points de vigilance / griefs -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #f97316; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Points de vigilance / griefs</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Consommation électrique</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Le projet est extrêmement consommateur d’électricité, ce qui constitue un enjeu central du débat sur les data centers IA.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Consommation d’eau</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Le refroidissement des centres de données interroge sur la disponibilité de la ressource en eau, même si le territoire met en avant des solutions industrielles.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Faible intensité en emplois</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Critique récurrente : les data centers créent relativement peu d’emplois directs en phase opérationnelle par rapport aux capitaux engagés.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Artificialisation / foncier</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Sujet de vigilance général lié à l’emprise foncière des grands centres de données.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Captation de ressources stratégiques</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Critique générale sur le risque que l’énergie et les ressources soient accaparées par des infrastructures détenues par des capitaux étrangers.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Pas d’opposition locale structurée identifiée</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Dans le corpus étudié, aucun collectif local d’opposition ou opposant local nommément cité n’apparaît clairement à ce stade pour Loon-Plage.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 7 : Médias / sources cités -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #64748b; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Médias / sources cités</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">La Tribune</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Relaye les annonces de Choose France et détaille les investissements dans les infrastructures IA.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Le Monde</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Analyse la course au gigantisme des centres de données et les enjeux d’eau, d’électricité et de foncier.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">La Voix du Nord</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Source régionale majeure sur les annonces SoftBank et le rôle des acteurs politiques des Hauts-de-France.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Ici</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Média relayant l’investissement de 45 Md€ dans les Hauts-de-France, dont Loon-Plage.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Les Echos</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Cite notamment le projet d’usine Schneider à Dunkerque.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Le Républicain Lorrain</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Fournit un cadrage critique sur l’emploi et l’impact économique des data centers.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Zonebourse</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Relaye le partenariat industriel et technologique de Schneider Electric avec SoftBank.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Lecture synthétique -->
+  <div style="margin-top:8px; padding:16px 18px; border-radius:14px; background:#fff7ed; border:1px solid #fed7aa; color:#7c2d12; font-size:13px; line-height:1.45; box-sizing: border-box;">
+    <strong>Lecture synthétique :</strong> à ce stade, le dossier Dunkerque / Loon-Plage apparaît d’abord comme une cartographie institutionnelle, industrielle et énergétique. Le corpus fait émerger un noyau très favorable autour de Patrice Vergriete, Xavier Bertrand, SoftBank, Schneider Electric, RTE et du Grand Port Maritime de Dunkerque. Contrairement à d’autres cas étudiés, aucun collectif local d’opposition structuré n’apparaît encore clairement dans les sources disponibles.
+  </div>
+
+</div>
