@@ -1,0 +1,307 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+/* Permet aux cartes de basculer automatiquement sur une colonne unique sur mobile */
+@media screen and (max-width: 850px) {
+  .grid-container {
+    grid-template-columns: 1fr !important;
+  }
+}
+</style>
+
+<div style="font-family:Arial, Helvetica, sans-serif; color:#0f172a; background:#f8fafc; border:1px solid #e2e8f0; border-radius:18px; padding:24px; width:100%; max-width:1200px; margin:0 auto; overflow:hidden; box-sizing: border-box;">
+    
+  <!-- Bandeau titre -->
+  <div style="background:#111827; color:#ffffff; border-radius:16px; padding:24px; margin-bottom:20px;">
+    <h1 style="margin:0 0 8px 0; font-size:26px; line-height:1.15;">Cartographie des acteurs — Escaudain</h1>
+    <p style="margin:0; color:#cbd5e1; font-size:14px; line-height:1.45;">Lecture en deux colonnes : projet central, élus moteurs, consortium retenu, énergie/raccordement, cadre étatique, formation/emploi, points de vigilance et sources citées.</p>
+  </div>
+
+  <!-- Légende -->
+  <div style="display:block; margin:0 0 22px 0; padding:14px 16px; background:#ffffff; border:1px solid #e2e8f0; border-radius:14px;">
+    <span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#111827;"></i>Projet central</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#2563eb;"></i>Élus / acteurs territoriaux moteurs</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#0f766e;"></i>Porteurs industriels / économiques</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#7c3aed;"></i>Énergie / raccordement</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#9333ea;"></i>État / cadrage national</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#0284c7;"></i>Formation / emploi</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#f97316;"></i>Points de vigilance / griefs</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#64748b;"></i>Médias / sources cités</span>
+  </div>
+
+  <!-- Élément Central -->
+  <div style="text-align:center; padding:18px 0 24px 0; margin-bottom:18px;">
+    <div style="display:inline-block; background:#111827; color:#ffffff; border-radius:999px; padding:22px 34px;">
+      <strong style="display:block; font-size:26px; line-height:1.1;">Campus de data centers — Escaudain</strong>
+      <small style="display:block; margin-top:6px; color:#cbd5e1; font-size:13px;">Projet de campus IA sur l’ancienne friche Usinor, environ 5 Md€, 700 MW à terme et 2 400 emplois annoncés</small>
+    </div>
+  </div>
+
+  <!-- CATEGORIE 1 : Projet central -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #111827; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Projet central</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Campus de data centers — Escaudain</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Projet de campus de data centers IA prévu à Escaudain sur l’ancienne friche Usinor, avec un investissement annoncé d’environ 5 milliards d’euros et une mise en service visée autour de 2030.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Friche Usinor / zone des Soufflantes</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Ancien site sidérurgique d’environ 38 hectares à Escaudain, support foncier du futur campus de data centers.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Escaudain</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Commune d’implantation du projet, dans le Valenciennois.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Campus, pépinière et incubateur</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Écosystème complémentaire évoqué autour du data center : campus de formation, pépinière d’entreprises et incubateur pour accompagner la reconversion économique du territoire.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 2 : Élus / acteurs territoriaux moteurs -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #2563eb; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Élus / acteurs territoriaux moteurs</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Aymeric Robin</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Président de la Communauté d’agglomération de La Porte du Hainaut et maire de Raismes. Porte politiquement le projet et insiste sur la réindustrialisation, l’emploi et la formation.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Bruno Saligot</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Maire d’Escaudain and vice-président de l’agglomération en charge de l’environnement et du développement durable. Défend le projet et précise la montée en puissance progressive des emplois.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Émilie Gérard</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Chargée d’affaires développement économique de La Porte du Hainaut. Met en avant les avantages techniques du site, notamment la proximité du poste de Mastaing et la capacité de raccordement.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Communauté d’agglomération de La Porte du Hainaut</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Collectivité territoriale centrale du dossier. Elle choisit le consortium retenu et structure le récit local de reconversion industrielle.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Raismes</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Commune liée au dossier via Aymeric Robin, qui en est le maire.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 3 : Porteurs industriels / économiques -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #0f766e; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Porteurs industriels / économiques</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Brookfield</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Fonds d’investissement canadien membre du consortium retenu pour le futur campus de data centers d’Escaudain.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">BT Immo</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Acteur immobilier / constructeur membre du consortium retenu avec Brookfield and Data4.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Data4</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Opérateur de data centers membre du consortium retenu pour développer le campus d’Escaudain.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">AWS / Amazon Web Services</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Acteur candidat cité comme ayant répondu à l’appel à manifestation d’intérêt, mais non retenu face au consortium Brookfield / BT Immo / Data4.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Usinor</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Ancien groupe sidérurgique dont la friche sert de support au projet ; symbole de la reconversion économique du territoire.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 4 : Énergie / raccordement -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #7c3aed; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Énergie / raccordement</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">RTE</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Gestionnaire du réseau de transport d’électricité. Acteur clé du raccordement du site, qui figure parmi les sites fast track capables d’accueillir plus de 700 MW.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Nathalie Lemaître</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Directrice générale du pôle Clients Systèmes Innovation chez RTE. Intervient dans le cadrage national des raccordements et la priorisation des projets.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Poste de Mastaing</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Infrastructure électrique structurante située à proximité du site, mise en avant pour justifier la rapidité possible du raccordement.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Enedis</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Acteur du paysage régional de l’électrification, cité dans des réunions plus larges autour des projets data centers dans le Nord.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">700 MW</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Capacité de raccordement mise en avant comme objectif à terme pour le site d’Escaudain.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 5 : État / cadrage national -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #9333ea; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">État / cadrage national</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#faf5ff; border:1px solid #e9d5ff; border-left:4px solid #9333ea; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Anne Le Hénanff</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Ministre déléguée chargée de l’Intelligence artificielle et du Numérique. Associe Escaudain à la politique nationale de sécurisation et d’accélération des data centers.</div>
+      </div>
+      
+      <div style="background:#faf5ff; border:1px solid #e9d5ff; border-left:4px solid #9333ea; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Roland Lescure</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Ministre de l’Économie, des Finances, de la souveraineté industrielle, énergétique et numérique. Cité dans le cadrage national d’accompagnement des projets.</div>
+      </div>
+      
+      <div style="background:#faf5ff; border:1px solid #e9d5ff; border-left:4px solid #9333ea; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">DGE</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Direction générale des entreprises. Partie prenante du dispositif national d’accompagnement des data centers.</div>
+      </div>
+      
+      <div style="background:#faf5ff; border:1px solid #e9d5ff; border-left:4px solid #9333ea; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Business France</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Acteur de la task force de l’État accompagnant les porteurs de projets.</div>
+      </div>
+      
+      <div style="background:#faf5ff; border:1px solid #e9d5ff; border-left:4px solid #9333ea; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">François Bayrou</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Ancien Premier ministre cité dans le contexte de l’annonce des sites industriels dits « clés en main » pour les data centers.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 6 : Formation / emploi -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #0284c7; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Formation / emploi</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f0f9ff; border:1px solid #bae6fd; border-left:4px solid #0284c7; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">2 400 emplois à terme</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Promesse centrale du projet, mise en avant par les élus locaux, avec environ 600 emplois dans une première phase.</div>
+      </div>
+      
+      <div style="background:#f0f9ff; border:1px solid #bae6fd; border-left:4px solid #0284c7; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Université</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Acteur évoqué pour structurer les futures filières de formation liées au projet.</div>
+      </div>
+      
+      <div style="background:#f0f9ff; border:1px solid #bae6fd; border-left:4px solid #0284c7; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Lycées</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Acteurs éducatifs mentionnés comme nécessaires pour préparer les compétences du territoire.</div>
+      </div>
+      
+      <div style="background:#f0f9ff; border:1px solid #bae6fd; border-left:4px solid #0284c7; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Éducation nationale</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Partie prenante citée pour développer les formations adaptées aux métiers du futur campus.</div>
+      </div>
+      
+      <div style="background:#f0f9ff; border:1px solid #bae6fd; border-left:4px solid #0284c7; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Recherche, maintenance et exploitation</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Ensemble de métiers et fonctions mis en avant dans le récit du projet.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 7 : Points de vigilance / griefs -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #f97316; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Points de vigilance / griefs</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Consommation électrique</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Le projet suppose une très forte demande de puissance, avec 700 MW visés à terme.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Consommation d’eau</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Question classique autour des data centers. Les promoteurs du projet défendent l’idée d’un fonctionnement en circuit fermé et d’une consommation maîtrisée.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Crédibilité des emplois annoncés</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Le volume de 2 400 emplois est au cœur du discours local, mais constitue aussi un point de vigilance analytique.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Acceptabilité locale</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Sujet mentionné dans le cadrage national des projets data centers, même si aucune opposition locale structurée n’apparaît ici.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Pas d’opposition locale structurée identifiée</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Dans le corpus étudié, aucun collectif local d’opposition ou opposant local nommément cité n’apparaît clairement à ce stade pour Escaudain.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CATEGORIE 8 : Médias / sources cités -->
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #64748b; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Médias / sources cités</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">DCmag</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Média spécialisé ayant relayé le choix du consortium Brookfield / BT Immo / Data4.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">La Voix du Nord</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Source régionale centrale sur le projet d’Escaudain.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">France 3 Régions</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Média ayant détaillé le projet, ses emplois annoncés et les éléments techniques liés au raccordement.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">20 Minutes</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Source nationale relayant l’officialisation du projet près de Valenciennes.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Economie Matin</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Source revenant sur la dimension stratégique et souveraine du projet.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Les Smart Grids</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Source centrée sur la dimension énergétique et technique du campus.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Next</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Source évoquant Escaudain dans le cadre national des sites fast track.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Lecture synthétique -->
+  <div style="margin-top:8px; padding:16px 18px; border-radius:14px; background:#fff7ed; border:1px solid #fed7aa; color:#7c2d12; font-size:13px; line-height:1.45; box-sizing: border-box;">
+    <strong>Lecture synthétique :</strong> à ce stade, le dossier Escaudain apparaît principalement comme une cartographie institutionnelle, industrielle et territoriale. Le noyau central associe La Porte du Hainaut, Aymeric Robin, Bruno Saligot, Émilie Gérard, Brookfield, BT Immo, Data4 and RTE. Le corpus ne fait pas émerger, à ce stade, de collectif d’opposition locale structuré.
+  </div>
+
+</div>
