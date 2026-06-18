@@ -1,0 +1,479 @@
+
+<!-- saved from url=(0135)file:///C:/Users/ROMANZ~1/AppData/Local/Temp/MicrosoftEdgeDownloads/da260130-cae2-4c83-adae-12f16f2fced6/gemini-code-1781774158777.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+/* Permet à la grille de repasser sur une colonne unique sur les terminaux mobiles */
+@media screen and (max-width: 850px) {
+  .grid-container {
+    grid-template-columns: 1fr !important;
+  }
+}
+</style>
+
+</head><body><div class="cb-chateauroux-curebot-final" style="font-family:Arial, Helvetica, sans-serif; color:#0f172a; background:#f8fafc; border:1px solid #e2e8f0; border-radius:18px; padding:24px; width:100%; max-width:1200px; margin:0 auto; overflow:hidden; box-sizing:border-box;">
+
+  <div style="background:#111827; color:#ffffff; border-radius:16px; padding:24px; margin-bottom:20px;">
+    <h1 style="margin:0 0 8px 0; font-size:26px; line-height:1.15;">Cartographie des acteurs — Châteauroux / Google Ozans</h1>
+    <p style="margin:0; color:#cbd5e1; font-size:14px; line-height:1.45;">Lecture en deux colonnes : projet central, noyau d’opposition, élus, maîtres d’ouvrage, concertation, experts, griefs et relais médiatiques.</p>
+  </div>
+
+  <div style="display:block; margin:0 0 22px 0; padding:14px 16px; background:#ffffff; border:1px solid #e2e8f0; border-radius:14px;">
+    <span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#111827;"></i>Projet central</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#15803d;"></i>Noyau d’opposition local</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#dc2626;"></i>Opposants / critiques nommément cités</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#2563eb;"></i>Élus / acteurs favorables ou moteurs</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#0f766e;"></i>Maîtres d’ouvrage / industriels</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#7c3aed;"></i>Concertation / institutions publiques</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#0891b2;"></i>Réseau critique national / experts</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#f97316;"></i>Points de vigilance / griefs</span><span style="display:inline-block; margin:4px 12px 4px 0; font-size:12px; color:#334155; font-weight:700;"><i style="width:11px; height:11px; border-radius:20px; display:inline-block; margin-right:7px; vertical-align:-1px; background:#64748b;"></i>Médias / sources cités</span>
+  </div>
+
+  <div style="text-align:center; padding:18px 0 24px 0; margin-bottom:18px;">
+    <div style="display:inline-block; background:#111827; color:#ffffff; border-radius:999px; padding:22px 34px;">
+      <strong style="display:block; font-size:26px; line-height:1.1;">Google Ozans — Châteauroux / Étrechet</strong>
+      <small style="display:block; margin-top:6px; color:#cbd5e1; font-size:13px;">Projet de campus de centres de données sur 195 hectares, avec raccordements électriques structurants</small>
+    </div>
+  </div>
+
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #111827; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Projet central</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Data center Google — Ozans / Étrechet</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Projet de campus de centres de données Google près de Châteauroux : 195 hectares, huit à dix bâtiments, raccordements électriques 225 kV puis 400 kV.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">ZAC d’Ozans</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Zone d’activités située à Étrechet, aux portes de Châteauroux ; parcelle de 195 hectares visée par Google.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #111827; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Data center miroir du Pêchereau</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Second site potentiel au Pêchereau / aérodrome Argenton-Le Pêchereau, destiné à prendre le relais du site d’Ozans en cas de défaillance.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #15803d; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Noyau d’opposition local</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#ecfdf5; border:1px solid #bbf7d0; border-left:4px solid #15803d; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Ozans dire non</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Collectif créé fin avril 2026 contre le projet Google ; rassemble citoyens, organisations syndicales, politiques et environnementales.</div>
+      </div>
+      
+      <div style="background:#ecfdf5; border:1px solid #bbf7d0; border-left:4px solid #15803d; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">PCF de l’Indre</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Fédération départementale du Parti communiste français ; membre du collectif Ozans dire non et très critique sur l’opacité du projet.</div>
+      </div>
+      
+      <div style="background:#ecfdf5; border:1px solid #bbf7d0; border-left:4px solid #15803d; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Les Écologistes</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Organisation à l’origine d’une réunion publique à Châteauroux pour peser dans la concertation préalable.</div>
+      </div>
+      
+      <div style="background:#ecfdf5; border:1px solid #bbf7d0; border-left:4px solid #15803d; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Confédération paysanne</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Organisation agricole critique du projet, notamment sur l’artificialisation de terres agricoles and la faiblesse des emplois annoncés.</div>
+      </div>
+      
+      <div style="background:#ecfdf5; border:1px solid #bbf7d0; border-left:4px solid #15803d; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Indre Nature / FNE locale</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Association environnementale locale citée parmi les acteurs que les garants de la CNDP doivent rencontrer.</div>
+      </div>
+      
+      <div style="background:#ecfdf5; border:1px solid #bbf7d0; border-left:4px solid #15803d; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Union de la gauche citoyenne</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Formation locale critique, représentée par Éric Domenge-Abeau.</div>
+      </div>
+      
+      <div style="background:#ecfdf5; border:1px solid #bbf7d0; border-left:4px solid #15803d; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">LFI</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Mentionnée dans le corpus via des critiques contre Google et son projet de data center à Ozans.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #dc2626; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Opposants / critiques nommément cités</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Jérémie Godet</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Vice-président écologiste de la Région Centre-Val de Loire, délégué au Climat ; porte la fronde avec Ozans dire non, critique l’artificialisation, les PFAS et l’îlot de chaleur.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Dominique Boué</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Secrétaire départemental du PCF de l’Indre ; dénonce l’absence de concertation, l’opacité et les incertitudes sur le refroidissement.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Francis Martinet</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">L’un des initiateurs du collectif Ozans dire non ; insiste sur l’information des citoyens et la faible transparence autour du projet.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Stéphanie Grelet</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Militante communiste ; compare le dossier Google à d’autres projets menés selon elle « en sous-marin ».</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Raphaël Tillie</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Membre du collectif ; interroge l’îlot de chaleur et défend l’enjeu de souveraineté alimentaire.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Philippe Guénin</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Éleveur laitier retraité et membre du comité départemental de la Confédération paysanne ; critique le foncier clés en main, l’artificialisation de bonnes terres agricoles et le mirage des créations d’emplois.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Michel Martin</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Membre du collectif Ozans dire non ; résume la position du collectif comme opposée au projet tout en demandant d’abord transparence et information.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Cyrielle Chatelain</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Présidente du groupe écologiste et social à l’Assemblée nationale ; alerte sur le mirage des créations d’emplois.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Jean Delavergne</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Co-secrétaire des Écologistes de l’Indre ; critique la gestion territoriale de Gil Avérous et la fuite en avant technocratique.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Éric Domenge-Abeau</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Tête de liste de l’Union de la gauche citoyenne à Châteauroux ; ironise sur la succession d’annonces non abouties autour d’Ozans.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Emmanuel de Saint Pol</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Agriculteur exproprié en 2012 ; exprime de la lassitude et un scepticisme face aux projets successifs sur la zone.</div>
+      </div>
+      
+      <div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #dc2626; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Militant écologiste anonyme</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Acteur non nommé explicitement dans le corpus ; à conserver uniquement comme signal général sur la faiblesse du rapport de force local, la difficulté à mobiliser et le manque d’informations techniques.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #2563eb; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Élus / acteurs favorables ou moteurs</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Gil Avérous</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Président LR de Châteauroux Métropole et maire de Châteauroux ; principal soutien local du projet, qu’il présente comme une chance historique.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">François Bonneau</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Président socialiste de la Région Centre-Val de Loire ; voit dans le projet une « super opportunité ».</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Marc Descouraux</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Maire d’Étrechet ; renvoie vers l’agglomération et indique ne pas avoir d’information précise sur l’avancement du projet.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Vincent Millan</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Maire d’Argenton-sur-Creuse et président de la communauté de communes Éguzon-Argenton-Vallée de la Creuse ; confirme l’existence d’un projet miroir au Pêchereau, encore très préliminaire.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Régis Blanchet</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Maire de Buzançais ; évoque avec prudence l’entreprise américaine, dans un contexte local de discrétion autour des projets de data centers.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Thibault Lanxade</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Préfet de l’Indre ; présenté comme soutien d’une stratégie de redynamisation numérique et industrielle autour d’Indre 2030.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Nicolas Bouzou</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Économiste, fondateur d’Asterès ; missionné pour imaginer le plan Indre 2030, incluant data centers, gigafactories et robotaxis.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Marc Fleuret</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Président du Conseil départemental de l’Indre ; cité comme soutien institutionnel mobilisant ses services pour accompagner l’implantation du projet.</div>
+      </div>
+      
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-left:4px solid #2563eb; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Chambre d’agriculture</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Acteur mobilisé dans les calculs de Gil Avérous sur la valorisation de chaleur pour les serres et la déshydratation de luzerne.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #0f766e; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Maîtres d’ouvrage / industriels</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Google</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Porteur industriel du projet ; envisage son premier data center exploité directement en France.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Google France</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Maître d’ouvrage cité dans la saisine CNDP avec Tricolore Computing, Violet Computing et RTE.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Tricolore Computing</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Filiale liée à Google, mentionnée pour l’acquisition potentielle du terrain et comme maître d’ouvrage.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Violet Computing</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Filiale liée à Google et citée comme maître d’ouvrage dans la concertation CNDP.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">RTE</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Maître d’ouvrage du raccordement électrique ; raccordement 225 kV puis nouvelles lignes aériennes 400 kV.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Enedis</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Mentionné par un militant écologiste comme acteur sollicité sans obtenir d’informations précises.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Decknet</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Porteur d’un autre projet de data center plus modeste à Buzançais.</div>
+      </div>
+      
+      <div style="background:#f0fdfa; border:1px solid #99f6e4; border-left:4px solid #0f766e; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Soprema Steel</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Industriel présent sur la ZAC d’Ozans, l’un des rares bâtiments existants sur la zone.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #7c3aed; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Concertation / institutions publiques</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">CNDP</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Commission nationale du débat public ; lance la concertation préalable sur le projet Ozans-Châteauroux.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Marc Papinutti</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Président de la CNDP ; explique que la présence de RTE fait entrer le projet dans le périmètre de la CNDP.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Jean-Louis Laure</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Garant de la concertation CNDP ; se dit vigilant face au sentiment d’urgence et au secret des affaires.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Dreal</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Autorité environnementale citée parmi les experts que les garants doivent rencontrer.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Ademe</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Cité comme acteur expert ; associée à des travaux sur les data centers et leurs impacts urbains/environnementaux.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">État</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Inscrit le site parmi les projets industriels stratégiques nationaux et soutient la politique d’implantation de data centers.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Préfecture de l’Indre</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Acteur local impliqué dans la stratégie Indre 2030 et les dynamiques de redynamisation industrielle.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Conseil départemental de l’Indre</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Institution départementale ajoutée comme acteur d’accompagnement du projet, aux côtés de la préfecture, de la métropole et des acteurs publics locaux.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Châteauroux Métropole</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Collectivité centrale du dossier, présidée par Gil Avérous ; liée à la réservation foncière, à la promesse de vente et au portage territorial du projet.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Commune d’Étrechet</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Commune directement concernée par l’implantation du projet sur la ZAC d’Ozans.</div>
+      </div>
+      
+      <div style="background:#f5f3ff; border:1px solid #ddd6fe; border-left:4px solid #7c3aed; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Diors</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Commune citée dans le cadre de la possible valorisation de chaleur fatale, point questionné par les critiques du projet.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #0891b2; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Réseau critique national / experts</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Ophélie Coelho</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Chercheuse associée à l’IRIS ; critique la diplomatie industrielle de terrain, la faiblesse des concertations et l’opacité des Big Tech.</div>
+      </div>
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Loup Cellard</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Sociologue spécialiste de l’impact écologique des datacenters ; interroge la valorisation de la chaleur fatale pour une commune de la taille de Diors.</div>
+      </div>
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Maxime Colin</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Juriste à France Nature Environnement ; critique la stratégie des GAFAM consistant à laisser les projets se développer discrètement.</div>
+      </div>
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Cécile Diguet</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Urbaniste au Studio Dégel ; souligne que la culture du secret des GAFAM nuit à l’anticipation urbaine et économique.</div>
+      </div>
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Guillaume Gourgues</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Politiste cité sur la faiblesse institutionnelle de la CNDP face aux projets industriels.</div>
+      </div>
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">La Quadrature du Net</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Association critique du numérique ; exprime des craintes sur les évolutions législatives favorables aux data centers.</div>
+      </div>
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Le Nuage était sous nos pieds</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Collectif critique des data centers ; cité sur l’intérêt social limité du projet et les créations d’emplois souvent sous-traitées.</div>
+      </div>
+      
+      <div style="background:#ecfeff; border:1px solid #a5f3fc; border-left:4px solid #0891b2; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Hiatus</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Collectif critique du numérique cité dans le débat national sur les grands entrepôts à serveurs.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #f97316; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Points de vigilance / griefs</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Opacité / secret des affaires</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Grief central : manque d’informations, culture du secret de Google et données techniques jugées insuffisantes.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Artificialisation des sols</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Critique liée aux 195 hectares du projet et à l’imperméabilisation d’un vaste foncier.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Îlot de chaleur</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Crainte d’un effet thermique massif près de la forêt de Châteauroux et des terres agricoles.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">PFAS / fluides frigorifiques</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Inquiétude sur les méthodes de refroidissement par air et les liquides frigorifiques potentiellement polluants.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Consommation d’eau</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Point sensible dans un territoire ayant connu du stress hydrique.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Consommation électrique</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Nécessité de lignes THT 225 kV puis 400 kV ; capacité actuelle jugée insuffisante pour un très grand projet.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Mirage de l’emploi</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Critique selon laquelle les emplois promis seraient limités par rapport à la surface mobilisée.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Souveraineté numérique</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Argument contesté en raison du Cloud Act et du contrôle des technologies par une multinationale américaine.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Cloud Act</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Point de vigilance spécifique sur la souveraineté numérique : la présence d’un data center détenu par une entreprise américaine ne règle pas l’enjeu d’extraterritorialité du droit américain.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Valorisation de la chaleur fatale</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Point technique et environnemental : Google évoque une valorisation de chaleur, notamment vers Diors, mais son utilité réelle et son dimensionnement sont contestés.</div>
+      </div>
+      
+      <div style="background:#fff7ed; border:1px solid #fed7aa; border-left:4px solid #f97316; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Projet miroir</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Risque d’extension territoriale avec un second site au Pêchereau.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div style="display:block; width:100%; background:#ffffff; border:1px solid #e2e8f0; border-top:6px solid #64748b; border-radius:18px; padding:18px; margin:0 0 18px 0; box-sizing: border-box;">
+    <h2 style="margin:0 0 14px 0; font-size:18px; line-height:1.2; color:#0f172a;">Médias / sources cités</h2>
+    <div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">La Nouvelle République</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Source locale centrale sur le projet Google, la concertation, le collectif Ozans dire non et les réactions politiques.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Basta!</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Média ayant publié l’enquête « Google avance masqué » et analysé l’opacité territoriale du projet.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">France 3 Centre-Val de Loire</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Média ayant traité la division locale autour du premier data center Google en France.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Le Monde</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Cité sur la confidentialité des informations écologiques des centres de données obtenue par les lobbys du secteur.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">ICI Berry</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Média cité au sujet du plan Indre 2030 et des positions de Thibault Lanxade.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">Multinationales.org</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Média critique ayant analysé le projet sous l’angle du secret des affaires, de la CNDP, de la souveraineté numérique, de la chaleur fatale et de l’opacité des Big Tech.</div>
+      </div>
+      
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border-left:4px solid #64748b; border-radius:14px; padding:10px 12px; box-sizing: border-box;">
+        <div style="font-weight:700; color:#0f172a; font-size:14px; line-height:1.2; margin-bottom:5px;">La Tribune</div>
+        <div style="color:#475569; font-size:12px; line-height:1.35;">Média économique ayant traité les emplois attendus, l’accélération étatique et les perspectives industrielles autour du data center Google à Châteauroux.</div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div style="margin-top:8px; padding:16px 18px; border-radius:14px; background:#fff7ed; border:1px solid #fed7aa; color:#7c2d12; font-size:13px; line-height:1.45; box-sizing: border-box;">
+    <strong>Lecture synthétique :</strong> le dossier Châteauroux est plus conflictuel que Bosquel : un noyau d’opposition s’est structuré autour d’Ozans dire non, du PCF de l’Indre, des Écologistes, de la Confédération paysanne et de plusieurs critiques nationales des data centers. Les griefs dominants portent sur l’opacité, l’artificialisation, les îlots de chaleur, l’eau, l’électricité, la faiblesse des emplois, la souveraineté numérique contestée face à Google, le Cloud Act et la valorisation incertaine de la chaleur fatale.
+  </div>
+
+</div></body></html>
